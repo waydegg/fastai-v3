@@ -9,10 +9,12 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+# export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://www.dropbox.com/s/mdc0ilrr5445zji/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+# classes = ['black', 'grizzly', 'teddys']
+classes = ['Abyssinian', 'Bengal', 'Birman', 'Bombay', 'British Shorthair', 'Egyptian Mau', 'Maine Coon', 'Persian', 'Ragdoll',  'Russian Blue', 'Siamese', 'Sphynx', 'american bulldog', 'american pit bull terrier', 'basset hound', 'beagle', 'boxer', 'chihuahua', 'english cocker spaniel', 'english setter', 'german shorthaired', 'great pyrenees', 'havanese', 'japanese chin', 'keeshond', 'leonberger', 'miniature pinscher', 'newfoundland', 'pomeranian', 'pug', 'saint bernard', 'samoyed', 'scottish terrier', 'shiba inu', 'staffordshire bull terrier', 'wheaten terrier', 'yorkshire terrier']
 path = Path(__file__).parent
 
 app = Starlette()
